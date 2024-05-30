@@ -440,7 +440,13 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
+```bash 
+@syazwan177 ➜ /workspaces/NatSysProject/myroot (main) $ ls -l
+total 0
+-rw-rw-rw- 1 codespace codespace 0 May 30 20:17 hello
+```
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
