@@ -323,9 +323,17 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 us
 @syazwan177 ➜ /workspaces/NatSysProject (main) $ uname -a
 Linux codespaces-235487 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** __5.5Gi __.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __workspaces: 20779876 K__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Processor Model: AMD EPYC 7763 64-Core Processor
+Vendor ID: AuthenticAMD
+CPU Family: 25
+Model: 1
+Stepping: 1
+Microcode: 0xffffffff
+CPU MHz: Approximately 3148.343 MHz (for processor 0) and 3149.984 MHz (for processor 1)
+Cache Size: 512 KB
+Address Sizes: 48 bits physical, 48 bits virtual__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
