@@ -482,7 +482,22 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+```bash
+root@73ef08cd0abb:/usr/local/apache2# ls -l
+total 40
+drwxr-xr-x  2 root root 4096 May 14 02:57 bin
+drwxr-xr-x  2 root root 4096 May 14 02:57 build
+drwxr-xr-x  2 root root 4096 May 14 02:57 cgi-bin
+drwxr-xr-x  4 root root 4096 May 14 02:57 conf
+drwxr-xr-x  3 root root 4096 May 14 02:57 error
+drwxrwxrwx+ 2 1000 1000 4096 May 27 18:23 htdocs
+drwxr-xr-x  3 root root 4096 May 14 02:57 icons
+drwxr-xr-x  2 root root 4096 May 14 02:57 include
+drwxr-xr-x  1 root root 4096 May 27 18:23 logs
+drwxr-xr-x  2 root root 4096 May 14 02:57 modules
+```
+
 2. What port is the apache web server running. ***(1 mark)***
 3. What port is open for http protocol on the host machine? ***(1 mark)***
 
@@ -503,8 +518,22 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** 
+```bash
+BusyBox is a single executable file that combines many standard Unix utilities into a smaller package. It's used in embedded systems and minimalist Linux distributions where space and resources are limited.
+
+The --name switch is used with the busybox command to specify which applet (command) within BusyBox to execute. It allows BusyBox to act as multiple utilities depending on the name specified, making it versatile in resource-constrained environments.
+```
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
+```bash
+docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+081662a74eae   bluenet   bridge    local
+c304f7f9417b   bridge    bridge    local
+0c8b12738a87   host      host      local
+f41b952170da   none      null      local
+189de9d52097   rednet    bridge    local
+```
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
 4. What is the network address for the running container c1 and c2.
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
