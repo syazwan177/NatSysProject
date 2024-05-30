@@ -334,7 +334,18 @@ Microcode: 0xffffffff
 CPU MHz: Approximately 3148.343 MHz (for processor 0) and 3149.984 MHz (for processor 1)
 Cache Size: 512 KB
 Address Sizes: 48 bits physical, 48 bits virtual__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** ```bash
+ls
+Function: Lists the names of files and directories in the current directory.
+Output: A simple list of filenames and directory names.
+
+ls -asl
+Options Used:
+-a (all): Lists all files, including hidden files (those starting with a dot .).
+-s (size): Shows the size of each file in blocks.
+-l (long): Provides a detailed listing, which includes permissions, number of links, owner, group, size, and timestamp.
+Function: Lists all files (including hidden files) in a detailed format with size information.
+```
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
