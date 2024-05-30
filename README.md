@@ -347,10 +347,21 @@ Options Used:
 -l (long): Provides a detailed listing, which includes permissions, number of links, owner, group, size, and timestamp.
 Function: Lists all files (including hidden files) in a detailed format with size information.
 ```
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __TLB size: 2560 4K pages__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
+```bash
+CPU Speed (Clock Speed):
+Processor 0: 3148.343 MHz
+Processor 1: 3149.984 MHz
+```
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+```bash
+Based on the output of top, the process that is consuming the most CPU cycles is identified by its PID (Process ID) and CPU usage percentage. In this case:
 
+PID 10899 is the process for node:
+CPU Usage: 3.0%
+Command: node
+```
 ## Running your own container instance.
 
 1. At the terminal, run a linux instance. By typing the following command. 
