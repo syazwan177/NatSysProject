@@ -420,8 +420,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __The files are persistent when it is restarted but is not persistent when it is removed. This is due to the container virtual volume being deleted after the container is removed, thus all data is lost.__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes__.
 
 ## Running your own container with persistent storage
 
