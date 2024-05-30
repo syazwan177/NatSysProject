@@ -450,8 +450,11 @@ total 0
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
-sudo chown -R codespace:codespace myroot
-
+@syazwan177 ➜ /workspaces/NatSysProject (main) $ chown -R codespace:codespace myroot
+@syazwan177 ➜ /workspaces/NatSysProject (main) $ ls -l
+-rw-rw-rw-  1 codespace root      23985 May 27 18:20 README.md
+drwxrwxrwx+ 2 codespace root       4096 May 27 17:27 images
+drwxrwxrwx+ 2 codespace codespace  4096 May 27 18:17 myroot
 ```
 *** __Fill answer here__.***
 
