@@ -3,7 +3,7 @@
 Group Name: __Fill your team name__. 
 
 Team Mates:
-1. A
+1. __Muhammad Syazwan bin Mohd Saparina__ and __2113667__
 2. __Fill name__ and __matric no__
 3. __Fill name__ and __matric no__
 
@@ -22,8 +22,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __https://github.com/syazwan177/NatSysProject__.
+2. How many files and folders are in this repository. ***(1 mark)*** __7 png files and 1 README.md files (8 files) and 1 folder(images)__.
 
 
 ## Exploring github codespaces
