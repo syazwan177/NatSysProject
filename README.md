@@ -224,8 +224,22 @@ shm                65536        8     65528   1% /dev/shm
 1972    ./images
 4812    .
 ```
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
+5. Run the command **ls** . ***(1 mark)*** 
+```bash
+@syazwan177 ➜ /workspaces/NatSysProject (main) $ ls
+README.md  images
+```
+6. Run the command **ls -asl** . ***(1 mark)*** 
+```bash
+@syazwan177 ➜ /workspaces/NatSysProject (main) $ ls -asl
+
+total 36
+ 4 drwxrwxrwx+ 4 codespace root  4096 May 30 10:21 .
+ 4 drwxr-xrwx+ 5 codespace root  4096 May 30 10:21 ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 May 30 11:08 .git
+20 -rw-rw-rw-  1 codespace root 17702 May 30 11:09 README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 May 30 10:21 images
+ ```
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
