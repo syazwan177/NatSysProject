@@ -104,7 +104,8 @@ messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 ```
-3. Run the command **df** . ***(1 mark)*** ```bash
+3. Run the command **df** . ***(1 mark)*** 
+```bash
 @syazwan177 ➜ /workspaces/NatSysProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10373620  20779964  34% /
