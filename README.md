@@ -544,8 +544,8 @@ f41b952170da   none      null      local
 ```
 4. What is the network address for the running container c1 and c2.
 ```bash
-"bluenet Gateway": "172.18.0.1"
-"rednet Gateway": "172.19.0.1"
+"bluenet Gateway": "172.18.0.2"
+"rednet Gateway": "172.19.0.2"
 ```
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 ```bash
