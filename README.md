@@ -307,8 +307,22 @@ address sizes   : 48 bits physical, 48 bits virtual
 power management:
 
 ```
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+```bash
+top - 11:11:50 up 52 min,  0 users,  load average: 0
+Tasks:  23 total,   1 running,  22 sleeping,   0 sto
+%Cpu(s):  3.0 us,  2.5 sy,  0.0 ni, 94.0 id,  0.3 wa
+MiB Mem :   7929.6 total,    429.4 free,   1705.7 us
+MiB Swap:      0.0 total,      0.0 free,      0.0 us
+
+    PID USER      PR  NI    VIRT    RES    SHR S 
+   8497 codespa+  20   0   21.1g 355848  46336 S
+```
+10. Run the command **uname -a**. ***(1 mark)*** 
+```bash
+@syazwan177 ➜ /workspaces/NatSysProject (main) $ uname -a
+Linux codespaces-235487 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
